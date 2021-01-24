@@ -1,13 +1,17 @@
 // import { Link } from 'react-router-dom'
 import './Header.css'
+import logoimage from '../../images/samplelogo.jpg'
 
 export default function Header(props) {
     return (
         <header className="Header">
+            <div className="LogoImage">
+                <img src={logoimage} alt="logoimage" />
+            </div>
             <div className="HeroText">
-                <p>
+                <h1>
                     Photon Phantom LLC
-                </p>
+                </h1>
             </div>
             <nav>
                 <ul className="NavLinks">
