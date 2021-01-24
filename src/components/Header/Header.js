@@ -4,6 +4,11 @@ import './Header.css'
 export default function Header(props) {
     return (
         <header className="Header">
+            <div className="HeroText">
+                <p>
+                    Photon Phantom LLC
+                </p>
+            </div>
             <nav>
                 <ul className="NavLinks">
                     <li>Contact</li>
