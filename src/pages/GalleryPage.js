@@ -17,6 +17,12 @@ export default function GalleryPage(props) {
                         alt="First slide"
                         />
                     </a>
+
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+
                 </Carousel.Item>
 
                 <Carousel.Item >
@@ -27,6 +33,12 @@ export default function GalleryPage(props) {
                         alt="Second slide"
                         />
                     </a>
+
+                    <Carousel.Caption>
+                        <h3>2nd slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+
                 </Carousel.Item>
 
                 <Carousel.Item >
@@ -37,6 +49,12 @@ export default function GalleryPage(props) {
                         alt="Second slide"
                         />
                     </a>
+
+                    <Carousel.Caption>
+                        <h3>3rd slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+
                 </Carousel.Item>
 
             </Carousel>
